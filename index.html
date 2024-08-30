@@ -155,7 +155,7 @@
     </section>
     <section
       class="animate-on-scroll hero w-full bg-[#fffbeb] bg-right bg-cover relative flex justify-center items-center font-montserrat"
-      style="height: 90vh"
+      style="height: calc(100vh - 2.75rem); background-color: #fffbeb"
     >
       <div
         class="animate-on-scroll flex flex-col md:flex-row justify-around items-center w-full h-full relative px-4 md:px-8"
@@ -182,7 +182,7 @@
             <div
               class="flex flex-col md:flex-row items-center gap-x-3 md:gap-x-6"
             >
-              <div class="flex items-center gap-1">
+              <div class="flex mt-1 mb-4 justify-between items-center gap-1">
                 <button
                   class="animate-on-scroll flex items-center justify-center rounded-full px-10 py-4"
                   style="background-color: #333d62; color: white"
@@ -391,7 +391,7 @@
         </div>
       </div>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-auto w-full"
+        class="animate-on-scroll grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-auto w-full"
       >
         <div
           class="col-span-1 rounded-xl bg-no-repeat bg-center bg-cover p-5 flex justify-center items-end text-white font-bold text-xl h-full w-full"
@@ -425,6 +425,351 @@
         <div class="bg-black w-1/2 h-2 rounded-full"></div>
       </div>
     </section>
+
+    <section
+      class="animate-on-scroll w-full h-full font-[Montserrat] space-y-12 bg-slate-50"
+    >
+      <div
+        class="w-full grid grid-cols-1 md:grid-cols-2 items-center justify-between py-14 px-4 md:px-56"
+      >
+        <p class="font-semibold text-4xl md:text-5xl" style="color: #333d62">
+          Whats Included
+        </p>
+        <p class="text-base md:text-lg font-normal" style="color: #333d62">
+          Whats included in the Standard Package for your web design services? I
+          can provide a list of features and deliverables that are typically
+          part.
+        </p>
+      </div>
+      <div
+        class="animate-on-scroll w-full md:w-3/4 mx-auto grid grid-cols-1 md:grid-cols-3 gap-5"
+      >
+        <div class="col-span-1 w-full">
+          <div class="flex flex-col justify-between items-center gap-y-5">
+            <div class="p-8 rounded-lg w-full h-full space-y-3 bg-white">
+              <h1
+                class="text-xl md:text-2xl font-semibold"
+                style="color: #333d62"
+              >
+                Charging case
+              </h1>
+              <p class="text-sm md:text-base">
+                A charging case is a compact, portable device designed to
+                recharge other electronic gadgets.
+              </p>
+              <img src="./public/AC.png" class="mx-auto" alt="Charging Case" />
+            </div>
+            <div class="p-8 rounded-lg w-full h-full space-y-3 bg-white">
+              <h1
+                class="text-xl md:text-2xl font-semibold"
+                style="color: #333d62"
+              >
+                Companion app
+              </h1>
+              <p class="text-sm md:text-base">
+                A companion app is a mobile application designed to complement.
+              </p>
+              <img
+                src="./public/VRGRID.png"
+                class="mx-auto"
+                alt="Companion App"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 w-full rounded-lg space-y-5 relative bg-white">
+          <p
+            class="font-semibold text-xl md:text-2xl pt-5 px-5"
+            style="color: #333d62"
+          >
+            GI glasses, with your choice of lens
+          </p>
+          <p class="px-5 text-sm md:text-base">
+            Glasses are more than just a corrective aid; they're a fashion
+            statement. With the right choice of lens.
+          </p>
+          <div class="overflow-hidden relative h-48">
+            <!-- Set a height for the container -->
+            <img
+              src="./public/glassmall.png"
+              alt="GI Glasses"
+              class="absolute inset-0 w-full h-full object-contain"
+            />
+          </div>
+        </div>
+
+        <div class="col-span-1 w-full">
+          <div class="flex flex-col justify-between items-center gap-y-5">
+            <div class="p-8 rounded-lg w-full h-full space-y-3 bg-white">
+              <h1
+                class="text-xl md:text-2xl font-semibold"
+                style="color: #333d62"
+              >
+                Polishing Cloth
+              </h1>
+              <p class="text-sm md:text-base">
+                A polishing cloth is a versatile tool designed to gently clean
+                and protect various surfaces. Made from soft.
+              </p>
+              <img
+                src="./public/gridLaptop.png"
+                class="mx-auto"
+                alt="Polishing Cloth"
+              />
+            </div>
+            <div class="p-8 rounded-lg w-full h-full space-y-3 bg-white">
+              <h1
+                class="text-xl md:text-2xl font-semibold"
+                style="color: #333d62"
+              >
+                USB-C cable
+              </h1>
+              <p class="text-sm md:text-base">
+                USB-C has revolutionized the world of connectivity, becoming the
+                go-to standard for charging and data.
+              </p>
+              <img
+                src="./public/cableGrid.png"
+                class="mx-auto"
+                alt="USB-C Cable"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="animate-on-scroll w-full h-screen font-[Montserrat] bg-cover bg-center flex flex-col md:flex-row justify-normal items-end"
+      style="background-image: url('./public/aftergridbgImage.png')"
+    >
+      <div
+        class="h-1/2 mb-24 md:mb-0 w-full md:w-1/2 flex justify-center items-center font-semibold text-6xl text-white bg-gradient-to-t from-black to-transparent"
+      >
+        Our Story
+      </div>
+
+      <div
+        class="relative mb-36 md:mb-0 h-1/2 w-full md:w-1/2 p-12 shadow-md rounded-t-xl bg-opacity-65 backdrop-blur-lg bg-gray-500/60"
+      >
+        <p class="relative tracking-wide w-10/12 z-10 text-white">
+          Undisturbed connections. We explore human experiences where digital
+          and physical realities merge. We are driven by an ambition to make
+          people thrive and advance beyond their screens - while still being
+          connected to everything digital. All we really want is to make people
+          see what matters when it matters.
+        </p>
+        <div class="flex gap-x-6 py-5">
+          <button
+            class="bg-white rounded-full px-10 py-4 text-black font-medium"
+          >
+            Know More
+          </button>
+          <span
+            class="w-14 h-14 bg-white rounded-full flex justify-center items-center -ml-6"
+          >
+            <img
+              src="./public/arrowIconBlack.png"
+              width="22"
+              height="22"
+              alt="Arrow Icon"
+            />
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="animate-on-scroll w-full md:h-screen screen-responsive font-[Montserrat]"
+      style="background-color: #181818"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 h-full">
+        <div class="col-span-1 flex justify-center items-center">
+          <div class="flex flex-col gap-y-4 items-start justify-normal w-2/3">
+            <span
+              class="rounded-lg bg-opacity-65 backdrop-blur-lg bg-white/10 px-3 py-2 text-white"
+            >
+              $599 / No subscription
+            </span>
+            <h1 class="text-6xl text-white">Personalize your G1</h1>
+            <p class="text-lg text-white">
+              Iconic and timeless Panto design. Flatters most face shapes and
+              lives with any look from traditional to on-trend. A versatile
+              choice that will never look dated.
+            </p>
+            <div class="flex items-start gap-x-6 py-5 md:flex-row md:gap-x-6">
+              <button
+                class="bg-white rounded-full px-10 py-4 text-black font-medium"
+              >
+                Pre Order
+              </button>
+              <span
+                class="w-14 h-14 bg-white rounded-full flex justify-center items-center -ml-6"
+              >
+                <img
+                  src="./public/arrowIconBlack.png"
+                  width="22"
+                  height="22"
+                  alt="Arrow Icon"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 bg-no-repeat bg-contain bg-left relative">
+          <img
+            src="./public/bgImageLastsection.png"
+            alt="Background Image"
+            class="hidden md:block absolute bottom-0 w-full"
+          />
+          <img
+            src="./public/lastSectionMobileImage.png"
+            alt="Mobile Background"
+            class="block absolute bottom-0 w-full mt-4"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="animate-on-scroll h-16 w-full flex justify-around items-center px-4 md:px-28 bg-blue-700"
+    >
+      <p class="text-white text-2xl">G1</p>
+      <p class="text-white">From $599 / No subscription</p>
+      <div class="flex gap-x-2 md:gap-x-6">
+        <button class="bg-white rounded-full px-10 py-1 text-black font-medium">
+          Buy Now
+        </button>
+        <span
+          class="p-2 bg-white rounded-full flex justify-center items-center -ml-6"
+        >
+          <img
+            src="./public/arrowIconBlack.png"
+            width="22"
+            height="22"
+            alt="Arrow Icon"
+          />
+        </span>
+      </div>
+    </div>
+    <footer
+      class="animate-on-scroll w-full h-[40vh] p-5 py-28 font-[Montserrat]"
+      style="background-color: #070707"
+    >
+      <div class="flex justify-center items-center">
+        <div
+          class="w-full md:w-4/5 flex justify-between items-center text-gray-300 font-light pb-5 border border-t-0 border-l-0 border-r-0 border-b-white text-sm"
+        >
+          <div class="flex flex-col gap-y-3 uppercase">
+            <p>Incorporation</p>
+            <p>Accounting</p>
+          </div>
+          <div class="flex flex-col gap-y-3 uppercase">
+            <p>Features</p>
+            <p>Company Secretary</p>
+          </div>
+          <div class="flex flex-col gap-y-3 uppercase">
+            <p>Other Services</p>
+            <p>Resources</p>
+          </div>
+          <div class="flex flex-col gap-y-3 uppercase">
+            <p>Partners</p>
+            <p>Company</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mx-auto w-full md:w-4/5 flex justify-between items-center py-6"
+      >
+        <div class="flex flex-col gap-y-4">
+          <div class="flex space-x-12">
+            <img src="./public/LogoWhite.png" alt="Logo" />
+            <div
+              class="w-56 flex justify-between items-center border border-white rounded-xl gap-x-1 text-white px-5"
+              style="color: #333d62"
+            >
+              <div class="flex items-center gap-x-3">
+                <img
+                  src="./public/globeIcon.png"
+                  class="w-5"
+                  alt="Globe Icon"
+                />
+                <p class="text-white">Singapore</p>
+              </div>
+              <img
+                src="./public/footerDownIcon.png"
+                class="w-4"
+                alt="Dropdown Icon"
+              />
+            </div>
+          </div>
+          <p class="text-xs text-gray-300 mt-5">
+            Copyright 2023. All rights reserved by abc
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-4 mt-5">
+          <div class="flex space-x-4">
+            <button
+              class="flex items-center justify-around gap-x-2 bg-white rounded-full px-8 py-3 font-medium"
+              style="color: #333d62"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="20"
+                height="20"
+                viewBox="0 0 30 30"
+                color="#212833"
+              >
+                <path
+                  d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z"
+                ></path>
+              </svg>
+              <span>App Store</span>
+            </button>
+            <button
+              class="flex items-center justify-around gap-x-2 bg-white rounded-full px-8 py-3 font-medium"
+              style="color: #333d62"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="20"
+                height="20"
+                viewBox="0 0 50 50"
+                color="#212833"
+              >
+                <path
+                  d="M 7.125 2 L 28.78125 23.5 L 34.71875 17.5625 L 8.46875 2.40625 C 8.03125 2.152344 7.5625 2.011719 7.125 2 Z M 5.3125 3 C 5.117188 3.347656 5 3.757813 5 4.21875 L 5 46 C 5 46.335938 5.070313 46.636719 5.1875 46.90625 L 27.34375 24.90625 Z M 36.53125 18.59375 L 30.1875 24.90625 L 36.53125 31.1875 L 44.28125 26.75 C 45.382813 26.113281 45.539063 25.304688 45.53125 24.875 C 45.519531 24.164063 45.070313 23.5 44.3125 23.09375 C 43.652344 22.738281 38.75 19.882813 36.53125 18.59375 Z M 28.78125 26.3125 L 6.9375 47.96875 C 7.300781 47.949219 7.695313 47.871094 8.0625 47.65625 C 8.917969 47.160156 26.21875 37.15625 26.21875 37.15625 L 34.75 32.25 Z"
+                ></path>
+              </svg>
+              <span>Google Play</span>
+            </button>
+          </div>
+          <div class="flex justify-end items-center gap-x-10 mt-5">
+            <img src="./public/fbIcon.png" class="w-7" alt="Facebook Icon" />
+            <img
+              src="./public/instaIcon.png"
+              class="w-7"
+              alt="Instagram Icon"
+            />
+            <img
+              src="./public/youtubeIcon.png"
+              class="w-7"
+              alt="YouTube Icon"
+            />
+            <img src="./public/tiktokIcon.png" class="w-7" alt="TikTok Icon" />
+            <img
+              src="./public/iconLinkedin.png"
+              class="w-7"
+              alt="LinkedIn Icon"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>

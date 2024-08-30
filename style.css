@@ -1,4 +1,27 @@
-/* Menu item hover effect */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b5998; /* Scrollbar color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5f74a8; /* Color on hover */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
 .menu-item:hover {
   background-color: rgba(37, 99, 235, 0.1);
 }
@@ -30,6 +53,11 @@
 @media (min-width: 640px) {
   .mobile-nav {
     display: none;
+  }
+}
+@media (max-width: 640px) {
+  .screen-responsive {
+    height: 120vh;
   }
 }
 
