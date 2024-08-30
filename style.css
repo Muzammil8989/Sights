@@ -59,6 +59,9 @@
   .screen-responsive {
     height: 120vh;
   }
+  .screeen-responsive {
+    height: 10rem;
+  }
 }
 
 /* Styles for the search input container */
